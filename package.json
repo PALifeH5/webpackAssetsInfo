@@ -1,0 +1,27 @@
+{
+  "name": "webpack-assets-info",
+  "version": "0.0.1",
+  "description": "get assets info from webpack compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PALifeH5/webpackAssetsInfo.git"
+  },
+  "keywords": [
+    "webpack",
+    "assets",
+    "info"
+  ],
+  "author": "wuchangming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PALifeH5/webpackAssetsInfo/issues"
+  },
+  "homepage": "https://github.com/PALifeH5/webpackAssetsInfo#readme",
+  "dependencies": {
+    "lodash": "^4.10.0"
+  }
+}
