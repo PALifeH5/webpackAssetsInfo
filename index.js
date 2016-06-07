@@ -14,7 +14,7 @@ module.exports = function(compilation) {
     var publicPath = compilation.mainTemplate.getPublicPath({hash: webpackStatsJson.hash});
 
     if (publicPath.length && publicPath.substr(-1, 1) !== '/') {
-        publicPath = path.join(urlModule.resolve(publicPath + '/', '.'), '/');
+        publicPath += '/';
     }
 
     var assets = {
@@ -107,4 +107,3 @@ function sortChunks(chunks, sortMode) {
   // Invalid sort mode
   throw new Error('"' + sortMode + '" is not a valid chunk sort mode');
 };
-
